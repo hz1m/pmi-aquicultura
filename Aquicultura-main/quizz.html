@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles/styles.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+        <title>Saiba Mais</title>
+
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Aqui</h1>
+            <h1>Floripa</h1>
+        </div>
+        
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="noticia.html"><li>Notícias</li></a>
+            <a href="educacional.html"><li>Conteúdos Educacionais</li></a>
+            <a href="./quizz.html"><li> Quizz</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="saiba-mais.html" id="Sobre-btn"><li>Saiba Mais</li></a>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2>Quiz sobre Aquicultura</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <h3>1. O que é aquicultura?</h3>
+                    <label><input type="radio" name="q1" value="a"> Agricultura de plantas aquáticas</label><br>
+                    <label><input type="radio" name="q1" value="b"> Criação de organismos aquáticos</label><br>
+                    <label><input type="radio" name="q1" value="c"> Estudo dos oceanos</label><br>
+                </div>
+
+                <div class="question">
+                    <h3>2. Qual é o principal benefício da aquicultura?</h3>
+                    <label><input type="radio" name="q2" value="a"> Aumentar a pesca selvagem</label><br>
+                    <label><input type="radio" name="q2" value="b"> Produção sustentável de alimentos</label><br>
+                    <label><input type="radio" name="q2" value="c"> Turismo aquático</label><br>
+                </div>
+
+                <div class="question">
+                    <h3>3. Qual cidade é um centro de inovação em aquicultura no Brasil?</h3>
+                    <label><input type="radio" name="q3" value="a"> São Paulo</label><br>
+                    <label><input type="radio" name="q3" value="b"> Florianópolis</label><br>
+                    <label><input type="radio" name="q3" value="c"> Rio de Janeiro</label><br>
+                </div>
+
+                <button type="button" onclick="checkAnswers()">Enviar</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

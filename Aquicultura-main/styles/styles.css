@@ -1,0 +1,197 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px ;
+    margin: 30px ;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0a49c9;
+    transition: 0.3s all;
+}   
+
+#Sobre-btn{
+    border: 2px solid #0a49c9;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#Sobre-btn:hover{
+    background-color: #0a49c9;
+    color: #fff;
+}
+
+
+h1{
+    font-weight: 300;
+
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+h2{
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: #0a49c9;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.imagem-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Move the image to the right */
+}
+
+.imagem-container img {
+    width: 580px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin-right: 30px; /* Adjust the right margin to move it closer to the right */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background: #0a49c9;
+    color: #fff;
+    font-weight: bold;
+}
+
+form [type="submit"] : :hover{
+    cursor: pointer;
+
+}
+
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+
+}
+
+
+.news-article {
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.news-article, .educational-content, .contact-form {
+    background-color: #759dcf;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.news-article h2, .educational-content h2, .contact-form h2 {
+    color: #ffffff;
+}
+
+.news-article img, .educational-content img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.educational-content ul {
+    padding-left: 20px;
+}
+
+.educational-content ul li {
+    list-style-type: disc;
+}
+
+
+
+/* Estilos específicos para a página de notícias */
+body.noticia h2 {
+    font-size: 18px; /* Diminua o tamanho da fonte conforme necessário */
+}
+
+body.noticia p {
+    font-size: 12px; /* Diminua o tamanho da fonte conforme necessário */
+}
+.question {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0a49c9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #083d89;
+}
